@@ -150,6 +150,7 @@ fn main() {
 
     while let Some(line) = read_line(contents_iter) {
         let inx = parse_instruction(&line);
+        // execute_instruction_9000(&mut yard, inx);
         execute_instruction_9001(&mut yard, inx);
     }
 
